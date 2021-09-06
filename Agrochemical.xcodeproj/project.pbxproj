@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136F6F304DD9982949739DF5 /* libPods-Agrochemical.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7986586E4B2B2A7EF8980C4F /* libPods-Agrochemical.a */; };
+		DC1E862926E5997200CEC4A4 /* NTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1E862626E5997200CEC4A4 /* NTButton.m */; };
+		DC1E862A26E5997200CEC4A4 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1E862726E5997200CEC4A4 /* BaseNavigationViewController.m */; };
+		DC1E862B26E5997200CEC4A4 /* NTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1E862826E5997200CEC4A4 /* NTViewController.m */; };
+		DC1E863526E59A1C00CEC4A4 /* Agro_homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1E863426E59A1C00CEC4A4 /* Agro_homeViewController.m */; };
+		DC1E863826E59A3C00CEC4A4 /* Agro_serviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1E863726E59A3C00CEC4A4 /* Agro_serviceViewController.m */; };
+		DC1E863B26E59A5500CEC4A4 /* Agro_shoppingCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1E863A26E59A5500CEC4A4 /* Agro_shoppingCarViewController.m */; };
+		DC1E863E26E59A6E00CEC4A4 /* Agro_personalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1E863D26E59A6E00CEC4A4 /* Agro_personalViewController.m */; };
 		DC7BBC8626E0616800E0B285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7BBC8526E0616800E0B285 /* AppDelegate.m */; };
 		DC7BBC8926E0616800E0B285 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7BBC8826E0616800E0B285 /* SceneDelegate.m */; };
 		DC7BBC8C26E0616800E0B285 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7BBC8B26E0616800E0B285 /* ViewController.m */; };
@@ -36,6 +44,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18D98B58DC86CE9ACE413596 /* Pods-Agrochemical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agrochemical.release.xcconfig"; path = "Target Support Files/Pods-Agrochemical/Pods-Agrochemical.release.xcconfig"; sourceTree = "<group>"; };
+		7986586E4B2B2A7EF8980C4F /* libPods-Agrochemical.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Agrochemical.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B8EBBC0BC4034D2E33CB61 /* Pods-Agrochemical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agrochemical.debug.xcconfig"; path = "Target Support Files/Pods-Agrochemical/Pods-Agrochemical.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1E862026E598A800CEC4A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DC1E862326E5997200CEC4A4 /* NTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTButton.h; sourceTree = "<group>"; };
+		DC1E862426E5997200CEC4A4 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		DC1E862526E5997200CEC4A4 /* NTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTViewController.h; sourceTree = "<group>"; };
+		DC1E862626E5997200CEC4A4 /* NTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTButton.m; sourceTree = "<group>"; };
+		DC1E862726E5997200CEC4A4 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		DC1E862826E5997200CEC4A4 /* NTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTViewController.m; sourceTree = "<group>"; };
+		DC1E863326E59A1C00CEC4A4 /* Agro_homeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Agro_homeViewController.h; sourceTree = "<group>"; };
+		DC1E863426E59A1C00CEC4A4 /* Agro_homeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Agro_homeViewController.m; sourceTree = "<group>"; };
+		DC1E863626E59A3C00CEC4A4 /* Agro_serviceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Agro_serviceViewController.h; sourceTree = "<group>"; };
+		DC1E863726E59A3C00CEC4A4 /* Agro_serviceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Agro_serviceViewController.m; sourceTree = "<group>"; };
+		DC1E863926E59A5500CEC4A4 /* Agro_shoppingCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Agro_shoppingCarViewController.h; sourceTree = "<group>"; };
+		DC1E863A26E59A5500CEC4A4 /* Agro_shoppingCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Agro_shoppingCarViewController.m; sourceTree = "<group>"; };
+		DC1E863C26E59A6E00CEC4A4 /* Agro_personalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Agro_personalViewController.h; sourceTree = "<group>"; };
+		DC1E863D26E59A6E00CEC4A4 /* Agro_personalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Agro_personalViewController.m; sourceTree = "<group>"; };
 		DC7BBC8126E0616800E0B285 /* Agrochemical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agrochemical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7BBC8426E0616800E0B285 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC7BBC8526E0616800E0B285 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				136F6F304DD9982949739DF5 /* libPods-Agrochemical.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +108,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9271F4742E969266C51E028D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82B8EBBC0BC4034D2E33CB61 /* Pods-Agrochemical.debug.xcconfig */,
+				18D98B58DC86CE9ACE413596 /* Pods-Agrochemical.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC1E862126E5995D00CEC4A4 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E862226E5997200CEC4A4 /* 底部导航 */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		DC1E862226E5997200CEC4A4 /* 底部导航 */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E862326E5997200CEC4A4 /* NTButton.h */,
+				DC1E862626E5997200CEC4A4 /* NTButton.m */,
+				DC1E862426E5997200CEC4A4 /* BaseNavigationViewController.h */,
+				DC1E862726E5997200CEC4A4 /* BaseNavigationViewController.m */,
+				DC1E862526E5997200CEC4A4 /* NTViewController.h */,
+				DC1E862826E5997200CEC4A4 /* NTViewController.m */,
+			);
+			path = "底部导航";
+			sourceTree = "<group>";
+		};
+		DC1E862C26E5997A00CEC4A4 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E863C26E59A6E00CEC4A4 /* Agro_personalViewController.h */,
+				DC1E863D26E59A6E00CEC4A4 /* Agro_personalViewController.m */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		DC1E862D26E5998700CEC4A4 /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E863926E59A5500CEC4A4 /* Agro_shoppingCarViewController.h */,
+				DC1E863A26E59A5500CEC4A4 /* Agro_shoppingCarViewController.m */,
+			);
+			path = "购物车";
+			sourceTree = "<group>";
+		};
+		DC1E862E26E5999400CEC4A4 /* 服务 */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E863626E59A3C00CEC4A4 /* Agro_serviceViewController.h */,
+				DC1E863726E59A3C00CEC4A4 /* Agro_serviceViewController.m */,
+			);
+			path = "服务";
+			sourceTree = "<group>";
+		};
+		DC1E862F26E5999C00CEC4A4 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E863326E59A1C00CEC4A4 /* Agro_homeViewController.h */,
+				DC1E863426E59A1C00CEC4A4 /* Agro_homeViewController.m */,
+			);
+			path = "主页";
+			sourceTree = "<group>";
+		};
+		DC1E863026E599A700CEC4A4 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E862F26E5999C00CEC4A4 /* 主页 */,
+				DC1E862E26E5999400CEC4A4 /* 服务 */,
+				DC1E862D26E5998700CEC4A4 /* 购物车 */,
+				DC1E862C26E5997A00CEC4A4 /* 我的 */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		DC1E863126E599BA00CEC4A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC1E863226E599C900CEC4A4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		DC7BBC7826E0616800E0B285 = {
 			isa = PBXGroup;
 			children = (
+				DC1E863226E599C900CEC4A4 /* Data */,
+				DC1E863126E599BA00CEC4A4 /* Model */,
+				DC1E863026E599A700CEC4A4 /* VC */,
+				DC1E862126E5995D00CEC4A4 /* common */,
 				DC7BBC8326E0616800E0B285 /* Agrochemical */,
 				DC7BBC9F26E0616900E0B285 /* AgrochemicalTests */,
 				DC7BBCAA26E0616900E0B285 /* AgrochemicalUITests */,
 				DC7BBC8226E0616800E0B285 /* Products */,
+				9271F4742E969266C51E028D /* Pods */,
+				E39C3A63BA644ED21FFE5561 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +239,7 @@
 				DC7BBC9226E0616800E0B285 /* LaunchScreen.storyboard */,
 				DC7BBC9526E0616800E0B285 /* Info.plist */,
 				DC7BBC9626E0616800E0B285 /* main.m */,
+				DC1E862026E598A800CEC4A4 /* PrefixHeader.pch */,
 			);
 			path = Agrochemical;
 			sourceTree = "<group>";
@@ -137,6 +262,14 @@
 			path = AgrochemicalUITests;
 			sourceTree = "<group>";
 		};
+		E39C3A63BA644ED21FFE5561 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7986586E4B2B2A7EF8980C4F /* libPods-Agrochemical.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC7BBCB026E0616900E0B285 /* Build configuration list for PBXNativeTarget "Agrochemical" */;
 			buildPhases = (
+				7B9F37960192C0626E25C392 /* [CP] Check Pods Manifest.lock */,
 				DC7BBC7D26E0616800E0B285 /* Sources */,
 				DC7BBC7E26E0616800E0B285 /* Frameworks */,
 				DC7BBC7F26E0616800E0B285 /* Resources */,
@@ -261,12 +395,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B9F37960192C0626E25C392 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Agrochemical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC7BBC7D26E0616800E0B285 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1E862926E5997200CEC4A4 /* NTButton.m in Sources */,
+				DC1E863826E59A3C00CEC4A4 /* Agro_serviceViewController.m in Sources */,
+				DC1E862A26E5997200CEC4A4 /* BaseNavigationViewController.m in Sources */,
+				DC1E863E26E59A6E00CEC4A4 /* Agro_personalViewController.m in Sources */,
 				DC7BBC8C26E0616800E0B285 /* ViewController.m in Sources */,
+				DC1E863B26E59A5500CEC4A4 /* Agro_shoppingCarViewController.m in Sources */,
+				DC1E862B26E5997200CEC4A4 /* NTViewController.m in Sources */,
+				DC1E863526E59A1C00CEC4A4 /* Agro_homeViewController.m in Sources */,
 				DC7BBC8626E0616800E0B285 /* AppDelegate.m in Sources */,
 				DC7BBC9726E0616800E0B285 /* main.m in Sources */,
 				DC7BBC8926E0616800E0B285 /* SceneDelegate.m in Sources */,
@@ -438,11 +604,13 @@
 		};
 		DC7BBCB126E0616900E0B285 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B8EBBC0BC4034D2E33CB61 /* Pods-Agrochemical.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9U9Z7DYEX6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Agrochemical/PrefixHeader.pch";
 				INFOPLIST_FILE = Agrochemical/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,11 +624,13 @@
 		};
 		DC7BBCB226E0616900E0B285 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D98B58DC86CE9ACE413596 /* Pods-Agrochemical.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9U9Z7DYEX6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Agrochemical/PrefixHeader.pch";
 				INFOPLIST_FILE = Agrochemical/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

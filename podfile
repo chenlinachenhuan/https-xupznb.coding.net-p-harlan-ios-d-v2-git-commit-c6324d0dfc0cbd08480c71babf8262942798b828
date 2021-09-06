@@ -1,0 +1,6 @@
+platform :ios, ‘8.0’
+target ‘Agrochemical' do 
+source 'https://github.com/CocoaPods/Specs.git'
+pod 'AFNetworking',:subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession']
+pod 'Masonry'
+end

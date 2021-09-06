@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  Agrochemical
+//
+//  Created by HarLan on 2021/9/6.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define statusBarHeight  ([[UIApplication sharedApplication] statusBarFrame].size.height)
+#define navBarHeight 44.0
+#define TopHeight (statusBarHeight + navBarHeight)
+
+//获取设备的物理高度
+#define heightS [UIScreen mainScreen].bounds.size.height-TopHeight-49
+#define ScreenHeight (statusBarHeight>20?heightS-34:heightS)
+ 
+//获取设备的物理宽度
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define colorH(a,b,c) [UIColor colorWithRed:a/255.0 green:b/255.0 blue:c/255.0 alpha:1]
+#endif /* PrefixHeader_pch */
